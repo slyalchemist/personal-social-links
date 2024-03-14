@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/slyalchemist/personal-social-links)
+- Live Site URL: (https://slyalchemist.github.io/personal-social-links/)
 
 ## My process
 - I first started by only focusing on the HTML to establish the main components of the profile card. Once I had these components established, I was able to begin styling on the CSS. 
