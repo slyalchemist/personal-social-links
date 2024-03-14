@@ -63,12 +63,14 @@ p{
 }
 
 .profile-image{
+    margin: 16px;
+}
+
+.profile-image img{
     height: 80px;
     width: 80px;
-    border: 1px solid black;
     border-radius: 50px;
     flex-shrink: 0;
-    margin: 16px;
 }
 
 .social-links{
@@ -80,24 +82,32 @@ p{
     padding: 6px 0 12px;
 }
 
-a{
-    font-size: 16px;
-    font-weight: bold;
-}
 
 .link{
     width: 90%;
     height: 15%;
-    background-color: var(--light-sage);
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.link:hover{
+button:hover{
     background-color: var(--accent);
     cursor: pointer;
+}
+
+
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: 'Antic Didone', Arial, Helvetica, sans-serif;
+    color: var(--text);
+    font-style: bold;
+    background-color: var(--light-sage);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 footer{
